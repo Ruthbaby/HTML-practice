@@ -52,27 +52,27 @@ body {
 .buttons button {
   margin-left: 15px;
   padding: 6px 20px;
-  border: none;
+  /* border: none; */
   border-radius: 5px;
   font-size: 17px;
   cursor: pointer;
 }
 
 .sign-in {
-  background-color: white;
-  color: #00b0ff;
-  border: 1px solid #009ce4;
-  border-color: #00b0ff;
-}
+    background-color: white;
+    color: #00b0ff;
+    border: 1px solid #00b0ff;
+    width: 100px;
+    height: auto;
+  }
 
 .sign-up {
   background-color: #00b0ff;
   color: #fff;
+  border: none;
 }
 
-.sign-in, .sign-up:hover {
-opacity: 1;
-}
+
 
 
 
